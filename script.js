@@ -68,19 +68,19 @@ function showweatherReport(weather)
     }
     else if(sky.textContent=='Clouds')
     {
-        document.body.style.backgroundImage="url('./images/cloudy.PNG')";
+        document.body.style.backgroundImage="url('./images/cloudy.png')";
     }
     else if(sky.textContent=='Mist')
     {
-        document.body.style.backgroundImage="url('./images/mist.PNG')";
+        document.body.style.backgroundImage="url('./images/mist.png')";
     }
     else if(sky.textContent=='Haze')
     {
-        document.body.style.backgroundImage="url('./images/haze.PNG')";
+        document.body.style.backgroundImage="url('./images/haze.png')";
     }
     else if(sky.textContent=='Smoke'|| sky.textContent=='Fog')
     {
-        document.body.style.backgroundImage="url('./images/smoke.PNG')";
+        document.body.style.backgroundImage="url('./images/smoke.png')";
     }
    
 }
