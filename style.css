@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image:url('/images/haze.PNG');
+    background-image:url('/images/cloudy.png'); */
+    background-image:url('./images/clear.png');
+   overflow: hidden;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   font-family: Arial, Helvetica, sans-serif;
+    
+
+  
+}
+
+.main-app
+{
+    width:50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255,0.6);
+    text-align: center;
+    padding: 20px;
+    font-size: 20pt;
+    font-size: 1.2rem;
+}
+.searchbox
+{
+    width: 100%;
+    outline:none;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.6);
+    text-align: center;
+    color:#582233;
+    font-size: 1.2rem;
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+   
+}
+.searchbox:focus{
+    background-color: rgba(255,255,255);
+}
+
+.weather-body
+{
+    color:#582233;
+    line-height: 2rem;
+    background-color: rgba(240, 248, 255,0.6);
+    height: 50vh;
+    border-radius: 10px;
+    display:none;
+}
+.location
+{
+    font-weight: bold;
+}
+.weather-status
+{
+    padding: 20px;
+}
+.temp
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+}
+.sky{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.minmax
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+  
+@media(max-width:411px)
+{
+
+    body
+    {
+        background-size:auto;
+      
+        background-position:top center;
+        height: 400px;
+        /* border: 1px solid red; */
+    }
+}
