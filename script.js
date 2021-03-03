@@ -82,6 +82,10 @@ function showweatherReport(weather)
     {
         document.body.style.backgroundImage="url('./images/smoke.png')";
     }
+   else if(sky.textContent=='Rain')
+    {
+        document.body.style.backgroundImage="url('./images/rain.png')";
+    }
    
 }
 
